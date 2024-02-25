@@ -28,7 +28,6 @@ The deployment process involves the following steps:
 - Azure Machine Learning
 - Azure ML Compute Clusters
 - AKS Compute
-- Python (for model development and testing)
 
 ## Dataset
 You can download the Wisconsin Diagnostic Breast Cancer (WDBC) dataset from [here](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic).
