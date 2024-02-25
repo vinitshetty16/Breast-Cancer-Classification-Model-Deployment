@@ -1,19 +1,19 @@
 # Breast Cancer Classification Model Deployment
 
 ## Overview
-This repository contains the code and resources for deploying a machine learning model for breast cancer classification using Azure Machine Learning. The model is trained on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset to classify tumors as malignant or benign with high accuracy.
+This repository contains the code and resources for deploying a machine learning model for breast cancer classification using Azure Machine Learning. The model is trained on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset to accurately classify tumours as malignant or benign.
 
 ## Methodology
 The deployment process involves the following steps:
 
 ### Data Ingestion
 - Creation of a pipeline for data ingestion using prebuilt components.
-- Uploading the WDBC dataset containing information on 569 samples and 30 different input features.
+- Uploading the WDBC dataset containing information on 569 samples and 30 input features.
 
 ### Model Design and Training
 - Designing a decision tree model using Azure ML Studio.
 - Performing feature selection and splitting the dataset into training and testing sets.
-- Training the decision tree model and evaluating its performance using metrics such as accuracy, precision, recall, F1-score, and AUC.
+- Training the decision tree model and evaluating its performance using accuracy, precision, recall, F1-score, and AUC metrics.
 
 ### Compute Resources
 - Creation of Azure ML Compute Clusters for model training.
